@@ -1,3 +1,36 @@
+# BUILT FOR OPENTRACKER
+I build this for Opentracker
+
+export Java home
+```
+export JAVA_HOME=/usr/lib/jvm/jdk-1.8.74/
+```
+
+check version
+```
+$ ./gradlew -v
+./gradlew: 23: cd: can't cd to "./
+
+------------------------------------------------------------
+Gradle 6.7.1
+------------------------------------------------------------
+
+Build time:   2020-11-16 17:09:24 UTC
+Revision:     2972ff02f3210d2ceed2f1ea880f026acfbab5c0
+
+Kotlin:       1.3.72
+Groovy:       2.5.12
+Ant:          Apache Ant(TM) version 1.10.8 compiled on May 10 2020
+JVM:          1.8.0_74 (Oracle Corporation 25.74-b02)
+OS:           Linux 5.2.0-3-amd64 amd64
+```
+
+to build
+```
+./gradlew graphql-java-servlet:build -x test
+```
+
+
 # GraphQL Java Servlet
 [![Maven Central](https://img.shields.io/maven-central/v/com.graphql-java-kickstart/graphql-java-servlet.svg)](https://maven-badges.herokuapp.com/maven-central/com.graphql-java-kickstart/graphql-java-servlet)
 [![Build Status](https://github.com/graphql-java-kickstart/graphql-java-servlet/workflows/Publish%20snapshot/badge.svg)](https://github.com/graphql-java-kickstart/graphql-java-servlet/actions?query=workflow%3A%22Publish+snapshot%22)
